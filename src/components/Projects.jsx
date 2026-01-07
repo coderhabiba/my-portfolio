@@ -92,12 +92,12 @@ const Projects = () => {
 
               {/* Floating Badge */}
               <div className="absolute top-4 right-4 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 flex gap-2">
-                <Link
+                <a
                   src={project.github}
                   className="p-3 bg-black/50 backdrop-blur-md rounded-full text-white hover:bg-[#6366F1] transition-colors"
                 >
                   <Github size={18} />
-                </Link>
+                </a>
                 <a
                   href={project.link}
                   className="p-3 bg-black/50 backdrop-blur-md rounded-full text-white hover:bg-[#6366F1] transition-colors"
