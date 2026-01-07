@@ -7,9 +7,9 @@ const Projects = () => {
       name: 'ZapShift',
       desc: 'An Employee Management System for seamless workflow.',
       tech: ['React', 'Express', 'MongoDB', 'TanStack Query'],
-      img: 'https://i.ibb.co.com/jPkD9R4/zapshift.jpg', 
+      img: 'https://i.ibb.co.com/jPkD9R4/zapshift.jpg',
       link: '#',
-      github: '#',
+      github: 'https://github.com/coderhabiba/ZapShift_client',
     },
     {
       name: 'PlateShare',
@@ -17,7 +17,7 @@ const Projects = () => {
       tech: ['React', 'Node.js', 'Firebase', 'Tailwind'],
       img: 'https://i.ibb.co.com/PzV0zG8/plateshare.jpg',
       link: '#',
-      github: '#',
+      github: 'https://github.com/coderhabiba/Plate_Share_Client_Site',
     },
     {
       name: 'Asset Verse',
@@ -25,7 +25,7 @@ const Projects = () => {
       tech: ['Next.js', 'Stripe', 'MongoDB', 'Framer Motion'],
       img: 'https://i.ibb.co.com/mRzRzD6/assetverse.jpg',
       link: '#',
-      github: '#',
+      github: 'https://github.com/coderhabiba/Asset_Verse-Client',
     },
     {
       name: 'Hero App',
@@ -33,7 +33,7 @@ const Projects = () => {
       tech: ['React', 'Redux', 'DaisyUI', 'JWT'],
       img: 'https://i.ibb.co.com/L1L1V7Q/heroapp.jpg',
       link: '#',
-      github: '#',
+      github: 'https://github.com/coderhabiba/A-08_Hero_App',
     },
     {
       name: 'English Janala',
@@ -41,7 +41,7 @@ const Projects = () => {
       tech: ['React', 'AOS', 'React Router', 'Node'],
       img: 'https://i.ibb.co.com/3MKqNStF/englishjanala.jpg',
       link: '#',
-      github: '#',
+      github: 'https://github.com/coderhabiba/English-Janala',
     },
   ];
 
@@ -92,12 +92,12 @@ const Projects = () => {
 
               {/* Floating Badge */}
               <div className="absolute top-4 right-4 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 flex gap-2">
-                <a
-                  href={project.github}
+                <Link
+                  src={project.github}
                   className="p-3 bg-black/50 backdrop-blur-md rounded-full text-white hover:bg-[#6366F1] transition-colors"
                 >
                   <Github size={18} />
-                </a>
+                </Link>
                 <a
                   href={project.link}
                   className="p-3 bg-black/50 backdrop-blur-md rounded-full text-white hover:bg-[#6366F1] transition-colors"
