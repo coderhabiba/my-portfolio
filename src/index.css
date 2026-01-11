@@ -1,9 +1,9 @@
 @import "tailwindcss";
-/* html {
-  scroll-behavior: smooth !important;
-  overflow-x: hidden;
+* {
+  cursor: none !important;
 }
 
-body {
-  overflow-x: hidden;
-} */
+
+input, textarea {
+  cursor: none !important;
+}

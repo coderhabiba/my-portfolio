@@ -55,9 +55,11 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 w-full z-[100] flex justify-center p-6 pointer-events-none">
       <nav className="w-full max-w-6xl backdrop-blur-xl bg-black/30 border border-white/5 px-6 md:px-10 py-4 rounded-[30px] flex justify-between items-center shadow-2xl relative pointer-events-auto">
-        
         {/* Logo */}
-        <a href="#home" className="text-xl font-black tracking-tighter italic text-white uppercase cursor-pointer">
+        <a
+          href="#home"
+          className="text-xl font-black tracking-tighter italic text-white uppercase cursor-pointer"
+        >
           Habiba.<span className="text-[#6366F1]">Sultana</span>
         </a>
 
@@ -79,13 +81,19 @@ const Navbar = () => {
         {/* Action Buttons */}
         <div className="flex items-center gap-4">
           <div ref={magneticRef} className="hidden sm:block">
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-[#6366F1] text-white px-7 py-3 rounded-full font-bold text-[10px] uppercase tracking-widest shadow-lg shadow-[#6366F1]/20 cursor-pointer"
+            <a
+              href="https://drive.google.com/file/d/1Op1LkP1DYcitPTClisriEVdJ3YDnXhva/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Resume
-            </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-[#6366F1] text-white px-7 py-3 rounded-full font-bold text-[10px] uppercase tracking-widest shadow-lg shadow-[#6366F1]/20 cursor-pointer"
+              >
+                Resume
+              </motion.button>
+            </a>
           </div>
 
           <button
