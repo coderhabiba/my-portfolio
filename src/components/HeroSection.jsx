@@ -62,7 +62,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative bg-[#050505] flex flex-col justify-center max-w-6xl mx-auto min-h-screen overflow-hidden lg:overflow-visible pt-20"
+      className="relative bg-[#050505] flex flex-col justify-center max-w-7xl mx-auto min-h-screen overflow-hidden lg:overflow-visible pt-20"
     >
       {/* Background Decorative Glows */}
       <div className="absolute top-1/4 left-0 w-[300px] h-[300px] bg-[#6366F1]/10 blur-[120px] rounded-full pointer-events-none"></div>

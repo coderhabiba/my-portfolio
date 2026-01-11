@@ -17,7 +17,7 @@ const AboutSection = () => {
       {/* Background Subtle Glow */}
       <div className="absolute top-1/2 right-0 w-100 h-100 bg-[#6366F1]/5 blur-[120px] rounded-full pointer-events-none"></div>
 
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-12 gap-10 items-start">
           {/* ---  --- */}
           <motion.div

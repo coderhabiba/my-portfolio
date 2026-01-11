@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Camera, Coffee, Plane, Book, Gamepad2, Palette } from 'lucide-react';
 

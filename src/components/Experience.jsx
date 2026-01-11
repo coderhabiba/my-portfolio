@@ -40,7 +40,7 @@ const Experience = () => {
       {/* Background Glow */}
       <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#6366F1]/5 blur-[120px] rounded-full pointer-events-none"></div>
 
-      <div className="max-w-6xl mx-auto relative z-10">
+      <div className="max-w-7xl mx-auto relative z-10">
         {/* Header */}
         <div className="mb-20 text-center lg:text-left">
           <motion.span

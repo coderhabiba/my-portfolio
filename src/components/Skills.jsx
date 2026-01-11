@@ -67,7 +67,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="py-32 px-6 bg-[#050505] relative">
-      <div className="max-w-6xl mx-auto relative z-10">
+      <div className="max-w-7xl mx-auto relative z-10">
         {/* Header */}
         <div className="text-center mb-20">
           <motion.span

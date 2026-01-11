@@ -36,7 +36,7 @@ const Education = () => {
       {/* Decorative Blur */}
       <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px] bg-[#6366F1]/5 blur-[120px] rounded-full pointer-events-none"></div>
 
-      <div className="max-w-6xl mx-auto relative z-10">
+      <div className="max-w-7xl mx-auto relative z-10">
         {/* Section Header */}
         <div className="mb-20">
           <motion.span
