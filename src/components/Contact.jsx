@@ -33,10 +33,10 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: <Github size={22} />, link: 'https://github.com/yourusername' },
+    { icon: <Github size={22} />, link: 'https://github.com/coderhabiba' },
     {
       icon: <Linkedin size={22} />,
-      link: 'https://linkedin.com/in/yourusername',
+      link: 'https://www.linkedin.com/in/habiba-anika-00ab163a1/',
     },
     { icon: <MessageCircle size={22} />, link: 'https://wa.me/8801720331344' },
   ];
