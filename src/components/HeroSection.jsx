@@ -163,7 +163,7 @@ const HeroSection = () => {
             <div className="relative z-10 aspect-[4/5] border-2 border-white/10 rounded-[56px] overflow-hidden bg-[#0D0D0F] group shadow-2xl">
               <img
                 src="https://i.ibb.co.com/3mkqNStF/person-front-computer-working-html.jpg"
-                className="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-1000 group-hover:scale-105"
+                className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-105"
                 alt="Habiba"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>

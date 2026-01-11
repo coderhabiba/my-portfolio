@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import {
   BookOpen,
@@ -17,6 +16,7 @@ const Education = () => {
       status: 'Completed',
       icon: <Code2 size={22} />,
       color: '#6366F1',
+      link: 'https://i.ibb.co.com/TxG6C3Kp/e-shikhon.jpg',
     },
     {
       title: 'Professional Web Design',
@@ -24,6 +24,7 @@ const Education = () => {
       status: 'Completed',
       icon: <Palette size={22} />,
       color: '#F59E0B',
+      link: 'https://i.ibb.co.com/TxG6C3Kp/e-shikhon.jpg',
     },
   ];
 
@@ -95,10 +96,13 @@ const Education = () => {
 
             <div className="grid gap-4">
               {certifications.map((cert, index) => (
-                <motion.div
+                <motion.a
                   key={index}
+                  href={cert.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ x: 10 }}
-                  className="bg-[#0D0D0F] p-6 rounded-[24px] border border-white/5 flex items-center gap-5 group transition-all"
+                  className="bg-[#0D0D0F] p-6 rounded-[24px] border border-white/5 flex items-center gap-5 group transition-all cursor-pointer"
                 >
                   <div
                     className="p-4 rounded-2xl transition-all duration-300 group-hover:scale-110"
@@ -115,14 +119,14 @@ const Education = () => {
                       {cert.title}
                     </h4>
                     <p className="text-gray-500 text-[10px] font-bold uppercase tracking-widest mt-1">
-                      {cert.platform}
+                      {cert.platform} • {cert.status}
                     </p>
                   </div>
 
-                  <div className="text-gray-600 group-hover:text-white transition-colors">
+                  <div className="text-gray-600 group-hover:text-[#6366F1] transition-colors">
                     <ExternalLink size={18} />
                   </div>
-                </motion.div>
+                </motion.a>
               ))}
             </div>
           </div>
