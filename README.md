@@ -51,11 +51,11 @@ npm run dev
 
 ## 📸 Screenshots
 
-*()*
+*(https://i.ibb.co.com/XrBkd8q2/Screenshot-2026-01-20-210626.png)*
 
 ## 🤝 Contact
 
-* **LinkedIn:** [Habiba Sultana](https://linkedin.com/in/your-profile)
+* **LinkedIn:** [Habiba Sultana](https://linkedin.com/in/your-profile](https://www.linkedin.com/in/habiba-sultana50/)
 * **Email:** anikahabiba50@gmail.com
 * **Website:** [My Portfolio](https://my-portfolio-kappa-lovat-42.vercel.app/)
 
