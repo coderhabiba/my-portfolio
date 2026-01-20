@@ -5,11 +5,11 @@
 👉 [**Live Link**](https://my-portfolio-kappa-lovat-42.vercel.app/)
 
 ## ✨ Features
-* **Modern UI/UX:** Tailwind CSS ebong Framer Motion diye smooth animations ebong modern interface toiri kora hoyeche.
-* **Fully Responsive:** Desktop, Tablet ebong Mobile - shob device-er jonno optimized.
-* **Project Showcase:** Amar kora best project gulor details ebong links ekhane ache.
-* **Skills Section:** Tech stack-er pro-active representation.
-* **Contact Form:** Jekono queries-er jonno amar sathe connect korar bebostha.
+* **Modern UI/UX:** Tailwind CSS,Framer Motion.
+* **Fully Responsive:** Desktop, Tablet and Mobile - Optimized for all devices.
+* **Project Showcase:** Best project are visibled in this portfolio.
+* **Skills Section:** Pro-active representation for tech stack.
+* **Contact Form:** Best way to coonnect with me.
 
 ## 🛠️ Tech Stack
 * **Frontend:** [React.js](https://reactjs.org/)
@@ -19,7 +19,7 @@
 * **Deployment:** [Vercel](https://vercel.com/)
 
 ## 🚀 Getting Started
-Local machine-e ei project-ti chalanor jonno nichey deya steps gulo follow koro:
+To run this project on local machine, follow this process:
 
 1. **Clone the repository:**
    ```bash
@@ -51,7 +51,7 @@ npm run dev
 
 ## 📸 Screenshots
 
-*(https://i.ibb.co.com/XrBkd8q2/Screenshot-2026-01-20-210626.png)*
+<img src="https://i.ibb.co.com/XrBkd8q2/Screenshot-2026-01-20-210626.png"/>
 
 ## 🤝 Contact
 
