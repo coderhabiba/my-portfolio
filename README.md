@@ -1,16 +1,63 @@
-# React + Vite
+```markdown
+# 🌟 Modern Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔗 Live Demo 
+👉 [**Live Link**](https://my-portfolio-kappa-lovat-42.vercel.app/)
 
-Currently, two official plugins are available:
+## ✨ Features
+* **Modern UI/UX:** Tailwind CSS ebong Framer Motion diye smooth animations ebong modern interface toiri kora hoyeche.
+* **Fully Responsive:** Desktop, Tablet ebong Mobile - shob device-er jonno optimized.
+* **Project Showcase:** Amar kora best project gulor details ebong links ekhane ache.
+* **Skills Section:** Tech stack-er pro-active representation.
+* **Contact Form:** Jekono queries-er jonno amar sathe connect korar bebostha.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+* **Frontend:** [React.js](https://reactjs.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Animations:** [Framer Motion](https://www.framer.com/motion/)
+* **Icons:** [Lucide React](https://lucide.dev/) / React Icons
+* **Deployment:** [Vercel](https://vercel.com/)
 
-## React Compiler
+## 🚀 Getting Started
+Local machine-e ei project-ti chalanor jonno nichey deya steps gulo follow koro:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Clone the repository:**
+   ```bash
+   git clone [(https://github.com/coderhabiba/my-portfolio)]
 
-## Expanding the ESLint configuration
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Navigate to the directory:**
+```bash
+cd your-repo-name
+
+```
+
+
+3. **Install dependencies:**
+```bash
+npm install
+
+```
+
+
+4. **Start the development server:**
+```bash
+npm run dev
+
+```
+
+
+
+## 📸 Screenshots
+
+*()*
+
+## 🤝 Contact
+
+* **LinkedIn:** [Habiba Sultana](https://linkedin.com/in/your-profile)
+* **Email:** anikahabiba50@gmail.com
+* **Website:** [My Portfolio](https://my-portfolio-kappa-lovat-42.vercel.app/)
+
+---
+
