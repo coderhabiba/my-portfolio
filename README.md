@@ -1,3 +1,9 @@
+## 📸 Project Preview
+
+<p align="center">
+  <img src="https://i.ibb.co.com/XrBkd8q2/Screenshot-2026-01-20-210626.png" alt="Portfolio Screenshot" width="800">
+</p>
+
 ```markdown
 # 🌟 Modern Personal Portfolio
 
@@ -46,13 +52,6 @@ npm install
 npm run dev
 
 ```
-
-## 📸 Project Preview
-
-<p align="center">
-  <img src="https://i.ibb.co.com/XrBkd8q2/Screenshot-2026-01-20-210626.png" alt="Portfolio Screenshot" width="800">
-</p>
-
 
 ## 🤝 Contact
 
