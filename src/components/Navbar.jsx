@@ -82,7 +82,7 @@ const Navbar = () => {
         <div className="flex items-center gap-4">
           <div ref={magneticRef} className="hidden sm:block">
             <a
-              href="https://drive.google.com/file/d/1Op1LkP1DYcitPTClisriEVdJ3YDnXhva/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1ZZi6I29XO5rKBLcb1BLX5Uok8s9b0u7-/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
