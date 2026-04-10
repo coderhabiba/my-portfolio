@@ -162,7 +162,7 @@ const HeroSection = () => {
 
             <div className="relative z-10 aspect-[4/5] border-2 border-white/10 rounded-[56px] overflow-hidden bg-[#0D0D0F] group shadow-2xl">
               <img
-                src="https://i.ibb.co.com/3mkqNStF/person-front-computer-working-html.jpg"
+                src="https://i.ibb.co.com/r2tZv3Tc/person-front-computer-working-html.jpg"
                 className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-105"
                 alt="Habiba"
               />
